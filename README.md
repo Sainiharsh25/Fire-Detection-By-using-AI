@@ -101,28 +101,28 @@ Configure your dataset path in config.py.
 
 # 🧠 Model Training
 
-Place your dataset in the data/ directory.  
-Start training:  
-bash  
-Copy code  
-python src/training/train_model.py  
-The trained model will be saved in the models/ directory.  
+- Place your dataset in the data/ directory.  
+- Start training:  
+- bash  
+- Copy code  
+- python src/training/train_model.py  
+- The trained model will be saved in the models/ directory.  
 
 
 # ⚡ Real-Time Detection
 
 Run the detection script with your preferred input source:  
 
-- Webcam:  
--- bash  
--- Copy code  
--- python src/detection/detect_realtime.py  
+- Webcam:
+ bash  
+Copy code  
+python src/detection/detect_realtime.py  
 - Video File:  
--- bash  
--- Copy code  
--- python src/detection/detect_video.py --video_path /path/to/video.mp4  
+bash  
+Copy code  
+python src/detection/detect_video.py --video_path /path/to/video.mp4  
 - Image:  
--- bash  
+bash  
 Copy code  
 python src/detection/detect_image.py --image_path /path/to/image.jpg  
 
@@ -153,13 +153,6 @@ This project uses a curated dataset of fire and non-fire images from open-source
 ### Real-time Video Detection
 1. Connect your webcam or provide a video file.
 2. The system will process the video frame-by-frame to detect fire.
-
-## Screenshots
-
-Include images of your application. Example:
-
-![Image Fire Detection](https://via.placeholder.com/800x400)
-![Real-time Detection](https://via.placeholder.com/800x400)
 
 ## Dataset
 
