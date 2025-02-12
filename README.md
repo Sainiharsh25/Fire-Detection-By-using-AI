@@ -15,17 +15,9 @@ This project leverages Artificial Intelligence (AI) to detect fires in real-time
 - TensorFlow / PyTorch (Choose based on implementation)
 - OpenCV (for image and video processing)
 - NumPy
-- Flask/Django (for web interface)
 
 ### Models
 - Pre-trained Convolutional Neural Networks (CNN) such as:
-  - ResNet
-  - MobileNet
-  - EfficientNet
-
-### Optional Tools
-- Docker (for containerization)
-- AWS/GCP (for cloud deployment)
 
 ## Installation
 
